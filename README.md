@@ -84,25 +84,6 @@ The objective of this project is to develop an automated computer vision-based s
 
 ---
 
-## 📁 Repository Structure
-
-```text
-parking_app/
-│
-├── app.py
-├── train_slots.py
-├── requirements.txt
-├── README.md
-│
-├── models/
-│   └── slots.pt
-│
-├── uploads/
-├── results/
-├── parking.db
-└── .gitignore
-```
-
 ### File Description
 
 | File / Directory | Description |
@@ -111,9 +92,6 @@ parking_app/
 | `train_slots.py` | Optional custom parking-slot model training script |
 | `requirements.txt` | Python dependencies |
 | `models/slots.pt` | Custom trained parking-slot detection model |
-| `uploads/` | Stores uploaded parking images |
-| `results/` | Stores annotated detection results |
-| `parking.db` | SQLite database |
 | `.gitignore` | Prevents unnecessary/generated files from being uploaded |
 
 ---
